@@ -1,0 +1,96 @@
+.gridcontainer{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 2fr 0.5fr 1.75fr;
+    width: 1000px;
+    height: 400px;
+    border: 1px solid lightgray;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: auto;
+    padding-left: 20px;
+
+    h2{
+        color:#60C28D;
+    }
+
+    p{
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+
+    span{
+        text-transform: uppercase;
+    }
+
+    .image1{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        background-image:url(sanglier.png);
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+
+    .title1{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .text1{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .image2{
+        grid-row:1/2;
+        grid-column: 2/3;
+        background-image: url(coca.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title2{
+        grid-row: 2/3;
+        grid-column: 2/3;
+
+    }
+
+    .text2{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .image3{
+        grid-row: 1/2;
+        grid-column:3/4;
+        background-image: url(git.png);
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+
+    .title3{
+        grid-row:2/3;
+        grid-column:3/4;
+    }
+
+    .text3{
+        grid-row:3/4;
+        grid-column: 3/4;
+    }
+    .image4{
+        grid-row: 1/2;
+        grid-column: 4/5;
+        background-image: url(npm.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title4{
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+
+    .text4{
+        grid-row: 3/4;
+        grid-column: 4/5;
+    }
+}
