@@ -126,6 +126,7 @@
   height: 275px;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .bigflexbox .cardleft {
   background-image: url(https://picsum.photos/200/300);
@@ -191,5 +192,112 @@
 }
 
 /* end of third mockup*/
+/* start of mockup 3*/
+.container3 {
+  width: 350px;
+  height: 500px;
+  border: 1px solid grey;
+  margin: auto;
+  background-color: #4978F4;
+}
+.container3 .top {
+  padding: 2px 2px 0px 5px;
+  height: 120px;
+}
+.container3 .top h5 {
+  color: #D8E4FD;
+}
+.container3 .top span {
+  font-size: 30px;
+  color: #D8E4FD;
+}
+.container3 .top p {
+  color: #D8E4FD;
+  font-size: 13px;
+}
+.container3 .top hr {
+  border-top: 0.5px solid #D8E4FD;
+  opacity: 0.2;
+}
+.container3 .graph-container {
+  display: flex;
+  align-items: flex-end;
+  width: 380px;
+  height: 80px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.container3 .graph-container .bar {
+  width: 7px;
+  border: 1px solid #4978F4;
+  background-color: #D8E4FD;
+}
+.container3 .graph-container .p20 {
+  height: 5px;
+}
+.container3 .graph-container .p30 {
+  height: 10px;
+}
+.container3 .graph-container .p40 {
+  height: 20px;
+}
+.container3 .graph-container .p55 {
+  height: 40px;
+}
+.container3 .graph-container .p60 {
+  height: 45px;
+}
+.container3 .graph-container .p65 {
+  height: 48px;
+}
+.container3 .graph-container .p70 {
+  height: 50px;
+}
+.container3 .graph-container .p80 {
+  height: 60px;
+}
+.container3 .graph-container .p85 {
+  height: 65px;
+}
+.container3 .graph-container .p90 {
+  height: 80px;
+}
+.container3 .graph-container .p100 {
+  height: 70px;
+}
+.container3 .listcontainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  font-size: 11px;
+  margin-top: 3px;
+  text-align: left;
+}
+.container3 .listcontainer hr {
+  border-top: 0.5px solid #D8E4FD;
+  opacity: 0.2;
+  margin-left: -40px;
+  margin-right: 10px;
+}
+.container3 .listcontainer ul {
+  list-style-type: none;
+}
+.container3 .listcontainer ul .headlist {
+  color: #D8E4FD;
+}
+.container3 .listcontainer ul li {
+  margin-left: 1px;
+}
+.container3 .footer hr {
+  border-top: 0.5px solid #D8E4FD;
+  opacity: 0.2;
+}
+.container3 .footer p {
+  color: white;
+  padding: 15px;
+  text-align: right;
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=mycss.css.map */
