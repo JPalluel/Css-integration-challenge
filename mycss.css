@@ -96,6 +96,7 @@
   grid-area: text4;
 }
 
+/*responsive*/
 @media only screen and (max-width: 550px) {
   .gridcontainer {
     width: auto;
@@ -115,5 +116,80 @@
     height: 180px;
   }
 }
+/* end of 1st mockup*/
+/* start of 3rd mockup*/
+.bigflexbox {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  height: 275px;
+  margin: auto;
+  margin-top: 100px;
+}
+.bigflexbox .cardleft {
+  background-image: url(https://picsum.photos/200/300);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+}
+.bigflexbox .cardright {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.bigflexbox .cardright .maincontent {
+  padding: 10px 20px;
+  height: 80%;
+}
+.bigflexbox .cardright .maincontent h4 {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-bottom: 2px;
+}
+.bigflexbox .cardright .maincontent p {
+  font-family: "Noto Sans JP", sans-serif;
+  color: grey;
+  font-size: 14px;
+  padding-top: 1px;
+  font-weight: 500;
+}
+.bigflexbox .cardright .aside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 20%;
+  padding: 15px;
+}
+.bigflexbox .cardright .aside .photo {
+  background-image: url(https://picsum.photos/200/300);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.bigflexbox .cardright .aside .info {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.bigflexbox .cardright .aside .info h6 {
+  margin: 1px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.bigflexbox .cardright .aside .info p {
+  color: grey;
+  font-size: 12px;
+  margin: 1px;
+  color: grey;
+}
+.bigflexbox .cardright .aside .icone {
+  padding-top: -20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* end of third mockup*/
 
 /*# sourceMappingURL=mycss.css.map */
