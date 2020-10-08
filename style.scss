@@ -1,4 +1,5 @@
 /* First Mockup */
+
 .gridcontainer{
     display:grid;
     grid-template-columns: auto auto auto auto;
@@ -28,8 +29,6 @@
     }
 
     .image1{
-        grid-row: 1/2;
-        grid-column: 1/2;
         background-image:url(sanglier.png);
         background-repeat:no-repeat;
         background-position: center;
@@ -37,20 +36,14 @@
     }
 
     .title1{
-        grid-row: 2/3;
-        grid-column: 1/2;
         grid-area: title1;
     }
 
     .text1{
-        grid-row: 3/4;
-        grid-column: 1/2;
         grid-area: text1;
     }
 
     .image2{
-        grid-row:1/2;
-        grid-column: 2/3;
         background-image: url(coca.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -59,21 +52,15 @@
     }
 
     .title2{
-        grid-row: 2/3;
-        grid-column: 2/3;
         grid-area: title2;
 
     }
 
     .text2{
-        grid-row: 3/4;
-        grid-column: 2/3;
         grid-area: text2;
     }
 
     .image3{
-        grid-row: 1/2;
-        grid-column:3/4;
         background-image: url(git.png);
         background-repeat:no-repeat;
         background-position: center;
@@ -82,19 +69,13 @@
     }
 
     .title3{
-        grid-row:2/3;
-        grid-column:3/4;
         grid-area: title3;
     }
 
     .text3{
-        grid-row:3/4;
-        grid-column: 3/4;
         grid-area: text3;
     }
     .image4{
-        grid-row: 1/2;
-        grid-column: 4/5;
         background-image: url(npm.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -102,14 +83,10 @@
     }
 
     .title4{
-        grid-row: 2/3;
-        grid-column: 4/5;
         grid-area: title4;
     }
 
     .text4{
-        grid-row: 3/4;
-        grid-column: 4/5;
         grid-area: text4;
     }
 }
@@ -235,9 +212,9 @@
                 margin-bottom:10px;
                 margin-left: 20px;
             }
-            }
         }
     }
+}
 /* end of third mockup*/
 
 /* start of mockup 3*/
@@ -249,6 +226,7 @@
     border: 1px solid grey;
     margin:auto;
     background-color: #4978F4;
+
     .top{
         padding: 2px 2px 0px 5px;
         height: 120px;
@@ -331,14 +309,12 @@
         }
     }
 
-    .listcontainer{
+    .listcontainer{                               
         display: flex;
         flex-direction: row;
         color:white;
-        justify-content: center;
         font-size: 11px;
         margin-top: 3px;
-        text-align: left;
 
         hr{
             border-top: 0.5px solid #D8E4FD;
@@ -353,19 +329,17 @@
             .headlist{
                 color:#D8E4FD
             }
-
-            li{
-                margin-left: 1px;
-            }
         }
     }
 
     .footer{
         
         hr{
+            margin-top: 20px;
             border-top: 0.5px solid #D8E4FD;
             opacity: 0.2;
         }
+        
         p{
             color: white;
             padding:15px;
