@@ -1,0 +1,83 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 2fr 0.5fr 1.75fr;
+  width: 1000px;
+  height: 400px;
+  border: 1px solid lightgray;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: auto;
+  padding-left: 20px;
+}
+.gridcontainer h2 {
+  color: #60C28D;
+}
+.gridcontainer p {
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.gridcontainer span {
+  text-transform: uppercase;
+}
+.gridcontainer .image1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-image: url(sanglier.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gridcontainer .title1 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.gridcontainer .text1 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.gridcontainer .image2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-image: url(coca.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gridcontainer .title2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.gridcontainer .text2 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.gridcontainer .image3 {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  background-image: url(git.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gridcontainer .title3 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.gridcontainer .text3 {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+.gridcontainer .image4 {
+  grid-row: 1/2;
+  grid-column: 4/5;
+  background-image: url(npm.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gridcontainer .title4 {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+.gridcontainer .text4 {
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+
+/*# sourceMappingURL=mycss.css.map */
